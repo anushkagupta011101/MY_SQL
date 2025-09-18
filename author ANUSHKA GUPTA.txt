@@ -1,0 +1,18 @@
+author ANUSHKA GUPTA 
+
+*********************************************
+
+# SQL : 
+It stands for structured Query Language
+It is a database language or programming language.
+It is used to access, communicate and manipulate the data in database
+
+________________________________________________________________________
+
+DATA: It is a collection of rows, facts and figures.
+
+INFORMATION: All useful data are my information.
+
+DATABASE: It is a collection of files/tables where we store data/information in tabular form.
+
+ ------------------[ BIT> BYTE> FIELD> RECORD> TABLE> FILES]-----------------
