@@ -15,4 +15,34 @@ INFORMATION: All useful data are my information.
 
 DATABASE: It is a collection of files/tables where we store data/information in tabular form.
 
+
  ------------------[ BIT> BYTE> FIELD> RECORD> TABLE> FILES]-----------------
+
+
+----------------------DBMS------------------------------
+It stands for database management system.
+It is a software which helps to manage, control, a database, allowing user to create, access and manipulate data.
+
+---------------------RDBMS------------------------------------
+It stands for Relational database management system
+It is a specific type of DBMS that stores and organize data in tables, with relationships between tables defined by key.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
