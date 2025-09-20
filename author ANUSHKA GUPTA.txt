@@ -28,6 +28,26 @@ It stands for Relational database management system
 It is a specific type of DBMS that stores and organize data in tables, with relationships between tables defined by key.
 
 
+-------------------------DATABASE KEYS-----------------------
+
+1. PRIMARY KEY: A key that do not have null values and do not have duplicates is called a primary key. It ensures that no two records can have same values for the primary key column.
+
+2. FORIEGN KEY:It is a set of column or column in a table that refers to the primary key in another table. It ensures that data in the tables is consistent
+
+3.SUPER KEY: It is a set of one or more column that can be used uniquely identify rows in a table. It may include extra column beyond what's necessary for a minimal unique identifier.
+
+4. UNIQUE KEY: It ensures that each value in a column or set of column in unique. It prevent duplicate value and allow only one null value.
+
+5. CANDIDATE KEY: A minimal super key that uniquely identifies rows. A primary key is a chosen candidate key.
+
+6. COMPOSITE KEY: It is a primary key that consist of two or more columns. Used uniquely identified rows when a single column isn't enough.
+NOTE: COMPOUND KEY IS THE ANOTHER NAME OF COMPOSITE KEYS
+
+7. SURROGATE KEYS: It is an artificially generated key, often an integer or GUI, used as a primary key. It is not derived from the actual data in the table and is primarily used for performance and simplicity. It doesn't change even if business data changes.
+
+8. NATURAL KEY: It is a primary key derived from meaningful data with the table. It is based on one or more existing column that have a real world significance.
+
+
 
 
 
