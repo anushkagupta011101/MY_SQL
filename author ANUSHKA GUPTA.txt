@@ -47,6 +47,13 @@ NOTE: COMPOUND KEY IS THE ANOTHER NAME OF COMPOSITE KEYS
 
 8. NATURAL KEY: It is a primary key derived from meaningful data with the table. It is based on one or more existing column that have a real world significance.
 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+*********************************** MY SQL********************************************
+
+It is a software where we use SQL language. MY SQL is a RDBMS or DBMS that manages and control a database allowing user to create, access and manipulate data.
+
+
 
 
 
