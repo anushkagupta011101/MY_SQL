@@ -53,6 +53,15 @@ NOTE: COMPOUND KEY IS THE ANOTHER NAME OF COMPOSITE KEYS
 
 It is a software where we use SQL language. MY SQL is a RDBMS or DBMS that manages and control a database allowing user to create, access and manipulate data.
 
+# DIFFERENCE BETWEEN SQL AND MY SQL:
+SQL: It is a language. It remains same
+
+MY SQL:  It is a DBMS or RDBMS. It is installed and should be updated time to time.
+
+NOTE: The code or statements of SQL works almost 90% in the other DBMS and only 10% have special codes, that's why SQL is widely used.
+
+:- Data is generated maximum on social plateforms after that E-commerce.
+
 
 
 
