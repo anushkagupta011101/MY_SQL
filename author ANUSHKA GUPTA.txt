@@ -62,6 +62,16 @@ NOTE: The code or statements of SQL works almost 90% in the other DBMS and only 
 
 :- Data is generated maximum on social plateforms after that E-commerce.
 
+----------------------------------------------------------------------------------------------------
+COMMANDS IN SQL
+i) DDL:  DATA DEFINE LANGUAGE
+ii) DML: DATA MANIPUALATION LANGUAGE
+iii) DCL: DATA CONTROL LANGUAGE
+iv) TCL: TRANSACTION CONTROL LANGUAGE
+v) DQL: DATA QUERY LANGUAGE
+
+
+
 
 
 
