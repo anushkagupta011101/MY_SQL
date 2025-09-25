@@ -71,6 +71,9 @@ iv) TCL: TRANSACTION CONTROL LANGUAGE
 v) DQL: DATA QUERY LANGUAGE
 
 
+#--------------------------------------------------------------------------------------------------
+DDL: It is used to built structure of any table
+
 
 
 
