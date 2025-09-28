@@ -74,7 +74,7 @@ v) DQL: DATA QUERY LANGUAGE
 #--------------------------------------------------------------------------------------------------
 DDL: It is used to built structure of any table
 
-It includes for statmenets:
+It includes five statmenets:
 1. CREATE: used to create any table, view, store procedure and function
 2. DROP: It is used to delete the database, table, view, store procedure and function
 3. ALTER: It is used to rename a table
@@ -83,6 +83,17 @@ It includes for statmenets:
           It is used to delete a column
           It is used to modify the datatype from table
 4. TRUNCATE: It is used to delete entire data and keep the format only of a table
+
+
+DML: Data Manipulation Language
+It is used to clean the data and for updating values and data into the table
+It includes three statements:
+
+1. INSERT: It is used to add data in rows/records. We need to enter data in each row if we left any row empty, It will show error.
+2. UPDATE: It is used to add value or replace value in particular cell by condition.
+3. DELETE: It is used to delete a particular rows by condition.
+
+
 
 
 
