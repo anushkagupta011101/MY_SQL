@@ -93,6 +93,11 @@ It includes three statements:
 2. UPDATE: It is used to add value or replace value in particular cell by condition.
 3. DELETE: It is used to delete a particular rows by condition.
 
+NOTE: TO RUN INSERT AND DELETE STATEMENTS WE NEED TURN OF THE SET SQL UPDATE
+          SET SQL_SAFE_UPDATES=0   [TURN OFF]
+          SET SQL_SAFE_UPDATES=1   [TURN ON]
+
+
 
 
 
