@@ -97,11 +97,14 @@ NOTE: TO RUN INSERT AND DELETE STATEMENTS WE NEED TURN OF THE SET SQL UPDATE
           SET SQL_SAFE_UPDATES=0   [TURN OFF]
           SET SQL_SAFE_UPDATES=1   [TURN ON]
 
-DCL: Dataa Control Language
+DCL: Data Control Language
 It deals with control and security of data with the database.
 
 i) GRANT: It provide permission to access the data from database.
 ii) REVOKE: It restricts the permission from user.
+
+
+TCL: Transaction Control Language
 
 
 
