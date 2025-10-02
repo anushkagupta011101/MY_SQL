@@ -105,6 +105,7 @@ ii) REVOKE: It restricts the permission from user.
 
 
 TCL: Transaction Control Language
+hfkldjfkld
 
 
 
