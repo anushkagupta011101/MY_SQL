@@ -105,8 +105,10 @@ ii) REVOKE: It restricts the permission from user.
 
 
 TCL: Transaction Control Language
-save point
-roll back'
+SAVE POINT: It saves the data in temporary base and set a point where we can roll back.
+ROLL BACK: It is used to take a step back in your data (undo).
+COMMIT: It permanently save your data and restricts editing access.
+
 
 
 
