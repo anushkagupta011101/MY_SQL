@@ -109,6 +109,11 @@ SAVE POINT: It saves the data in temporary base and set a point where we can rol
 ROLL BACK: It is used to take a step back in your data (undo).
 COMMIT: It permanently save your data and restricts editing access.
 
+DQL: Data Query Language
+SELECT: 
+
+
+
 
 
 
