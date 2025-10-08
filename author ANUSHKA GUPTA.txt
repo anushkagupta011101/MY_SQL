@@ -117,7 +117,46 @@ SELECT: It is used to retrieve database or table and show output.
 
 
 
-************************************ CONSTRAINTS**************************************************
+************************************ FUNCTIONS*************************************************
+
+1. MATHEMATICAL FUNCTION:
+i). FLOOR: It show the value before the decimal or round down the number
+                floor(25.9)-----25
+                floor(14.1)----14
+
+ii) CIEL: It show round up the number or show the next value.
+                 ceil(13.1)-----14
+                 ceil(15.5)------16
+
+iii) ROUND: It work condition to round the value if number of decimal is greater than or equal to (0.5) then show next value else same value.
+                  round(12.5)-----13
+                  round(11.4)-----11
+
+iv) ABS(ABSOLUTE): It convert the negative number is positve
+                  ABS(-11)------11
+
+v) SIGN: It show the direction of number,
+         if number is positive then shows--1
+         if number is negative then shows---0
+                  sign(-300)---0
+                  sign(500)-----1
+vi) POW or POWER: It is used square, cube, or add power any number
+                  POWER(4,3)----64
+
+vii) SQRT: It show the base value of any squared no. 
+                   SQRT(64)-----8
+
+viii) MOD: It shows the remainder of number
+                   mod(9,6)---3
+
+ix) RAND: It generates random number between 0 and 1.
+                   rand()------ gives random number 0 to 1
+                   rand()*200------gives random number between 1 to 200 in decimal
+                round(rand()*200)------ give random number between 1 to 200 in integer
+
+
+
+
 
 
 
