@@ -154,6 +154,9 @@ ix) RAND: It generates random number between 0 and 1.
                    rand()*200------gives random number between 1 to 200 in decimal
                 round(rand()*200)------ give random number between 1 to 200 in integer
 
+TEXT FUNCTIONS
+
+
 
 
 
