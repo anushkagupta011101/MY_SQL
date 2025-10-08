@@ -86,6 +86,7 @@ It includes five statmenets:
 
 
 DML: Data Manipulation Language
+
 It is used to clean the data and for updating values and data into the table
 It includes three statements:
 
@@ -98,6 +99,7 @@ NOTE: TO RUN INSERT AND DELETE STATEMENTS WE NEED TURN OF THE SET SQL UPDATE
           SET SQL_SAFE_UPDATES=1   [TURN ON]
 
 DCL: Data Control Language
+
 It deals with control and security of data with the database.
 
 i) GRANT: It provide permission to access the data from database.
@@ -109,7 +111,14 @@ SAVE POINT: It saves the data in temporary base and set a point where we can rol
 ROLL BACK: It is used to take a step back in your data (undo).
 COMMIT: It permanently save your data and restricts editing access.
 
+DQL: Data Query Language
+
+SELECT: It is used to retrieve database or table and show output.
+
+
+
 ************************************ CONSTRAINTS**************************************************
+
 
 
 
