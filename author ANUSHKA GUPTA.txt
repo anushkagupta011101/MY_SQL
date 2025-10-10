@@ -160,6 +160,9 @@ ii) LOWER: It converts the text in small letter
 iii)TRIM:  It deletes extra space from starting and ending of the text
 iv) LEFT: It extract the range of character from starting of the text by number of character
 v)  RIGHT: It extract the range of character from ending of the text by number of character
+vi) MID/ SUBSTR/ SUBSTRING: It is used to extract elements from mid of the text by starting point and by number of character from the text
+            [mid("anushka",3,4)] it will give "ushk"
+
 
 
 
