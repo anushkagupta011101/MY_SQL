@@ -155,6 +155,13 @@ ix) RAND: It generates random number between 0 and 1.
                 round(rand()*200)------ give random number between 1 to 200 in integer
 
 TEXT FUNCTIONS
+i)  UPPER: It converts the text in capital letter        
+ii) LOWER: It converts the text in small letter
+iii)TRIM:  It deletes extra space from starting and ending of the text
+iv) LEFT: It extract the range of character from starting of the text by number of character
+v)  RIGHT: It extract the range of character from ending of the text by number of character
+
+
 
 
 
