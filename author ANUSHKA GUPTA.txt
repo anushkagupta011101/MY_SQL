@@ -162,6 +162,15 @@ iv) LEFT: It extract the range of character from starting of the text by number 
 v)  RIGHT: It extract the range of character from ending of the text by number of character
 vi) MID/ SUBSTR/ SUBSTRING: It is used to extract elements from mid of the text by starting point and by number of character from the text
             [mid("anushka",3,4)] it will give "ushk"
+vii)INSTR: It shows the position of character from text by.
+            [Instr("database","b") it will 5
+viii) LENGTH: It shows the position of character from text.
+ix) REPLACE: It replace value from old text to new
+            [replace("tanu","t","M")] it will "Manu"
+x) CONCAT: It is used to combine text or column without seperator.
+xi) CONCAT_WS: It is used to combine text with delimiter
+            [",","tanu","Manu","kanu"] it will return tanu,Manu,kanu
+xii) REVERSE: It reverse the text.
 
 
 
