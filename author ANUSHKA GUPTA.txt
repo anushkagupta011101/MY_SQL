@@ -173,6 +173,57 @@ xi) CONCAT_WS: It is used to combine text with delimiter
 xii) REVERSE: It reverse the text.
 
 
+#------------------------------------------------------------------------------------
+# DATE AND TIME FUNCTIONS
+#------------------------------------------------------------------------------------
+#NOW: It show current date and time
+select now();
+
+#CURDATE/CUREENT_DATE : It show current date 
+select curdate();
+select current_date();
+
+#CURRENT_TIME: It show current time
+select current_time();
+
+#-------EXTRACT MONTH DAY AND YEAR----------
+#MONTH: It show month from date
+ select month("2025-05-24");   #date format should be YY-mm-dd
+ 
+ #MONTHNAME: It show month name from date
+ select monthname("2024-03-23");
+#or 
+
+#MONTHNAME: It also show the month name from date
+select monthname(now());      #will show current month name
+
+
+#DAY: It show the day number from date
+select day(now());
+
+#DAYNAME: It show the day namae from date
+select dayname(now());
+
+
+#DAYOFYEAR:It show day number of year
+select dayofyear(now());
+
+
+#DAYOFWEEK: It show the week number 
+select dayofweek(now());
+
+#WEEKOFYEAR: It show week of year
+select weekofyear(now());
+
+#QUARTER: It show the quarter of year
+select quarter(now());
+
+#YEAR: It show year 
+select year(Now());
+
+
+#CURRENT_TIME: It show the current time
+select current_time();
 
 
 
