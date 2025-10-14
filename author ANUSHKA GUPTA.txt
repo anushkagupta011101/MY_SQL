@@ -225,6 +225,17 @@ select year(Now());
 #CURRENT_TIME: It show the current time
 select current_time();
 
+#----------------------------------------------------------
+# HOW TO CREATE A DATABASE AND DATA TABLE
+#----------------------------------------------------------
+#CREATE: CREATE DATABASE OR DATA TABLE
+
+#HOW TO CREATE A DATABASE:
+CREATE DATABASE FACTORY;
+
+#HOW TO DELETE A DATABASE:
+DROP DATABASE FACTORY;
+
 
 
 
