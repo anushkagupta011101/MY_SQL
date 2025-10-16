@@ -240,6 +240,8 @@ DROP DATABASE FACTORY;
 #HOW TO USE DATABASE:
 USE DATABASE FACTORY;
 
+#how to create a table
+create table customers;
 
 
 
