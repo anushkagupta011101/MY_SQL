@@ -255,10 +255,26 @@ create table EMP(
 # HOW TO RETRIVE THE TABLE
 SELECT EMP_ID,EMP_NAME,SALARY,CITY  FROM EMP;     #SELECT ACCORDING TO OUR CHOICE
 
-#WE CAN USE * FROM EMP;
+#WE CAN USE * FROM EMP to extract all column of a table
 SELECT *FROM EMP;    #IT SELECT ALL COLUMN
 
 
+#----------------------------------------------------
+#HOW TO INSERT DATA
+#--------------------------------------
+
+#DML: INSERT:
+
+INSERT INTO  EMP(EMP_ID,EMP_NAME,SALARY,CITY)
+		VALUE(101,"ANUSHKA",50000,"NEW DELHI"),
+			 (102,"TANU",80000,"DELHI"),
+             (103,"PRINCE",85000,"NOIDA");
+
+SELECT * FROM EMP;
+
+#HOW TO DELETE A TABLE
+DROP TABLE EMP;
+#-------------------
 
 
 
