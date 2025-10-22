@@ -296,8 +296,26 @@ SHOW TABLE;   #OR SHOW DATABASES;
 CREATE DATABASE ANUSHKA;
 USE ANUSHKA;
 
+CREATE TABLE CUSTOMER (
+			ID INT,
+            CUSTOMER_NAME VARCHAR(200),
+            SALES FLOAT,
+            AMOUNT float
+            );
+            
+SELECT * FROM CUSTOMER;
 
-select* from table;
+INSERT INTO CUSTOMER (ID,CUSTOMER_NAME,SALES,AMOUNT)
+			VALUES(101,"TANU",34,45000),
+            (102,"MANU",66,56000),
+            (103,"PRINCE",56,67000),
+            (104,"ANUSHKA",34,56000),
+            (105,"PRITAMA",78,89000),
+            (106,"KASHISH",67,26000);
+
+SELECT * FROM CUSTOMER;
+
+
 
 
 
