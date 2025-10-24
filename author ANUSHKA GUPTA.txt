@@ -316,6 +316,9 @@ INSERT INTO CUSTOMER (ID,CUSTOMER_NAME,SALES,AMOUNT)
 SELECT * FROM CUSTOMER;
 
 lets take some rest
+you can do it
+
+
 
 
 
