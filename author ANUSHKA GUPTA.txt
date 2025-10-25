@@ -314,7 +314,7 @@ INSERT INTO CUSTOMER (ID,CUSTOMER_NAME,SALES,AMOUNT)
             (106,"KASHISH",67,26000);
 
 SELECT * FROM CUSTOMER;
-
+xyz
 lets take some rest
 you can do it
 
