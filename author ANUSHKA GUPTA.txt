@@ -314,7 +314,79 @@ INSERT INTO CUSTOMER (ID,CUSTOMER_NAME,SALES,AMOUNT)
             (106,"KASHISH",67,26000);
 
 SELECT * FROM CUSTOMER;
-i will definitely do that tomorrow for sure
+
+SELECT CUSTOMER_NAME, AMOUNT FROM CUSTOMER;
+
+#MATHEMATICAL CALCULATION
+# SUBTRACT 2000 FROM AMOUNT COLUMN
+
+SELECT AMOUNT,
+        AMOUNT-2000
+               FROM CUSTOMER;
+               
+#SHOW ALL COLUMN FROM TABLE AND CUSTOMER_NAME SHOULD BE IN SMALL LETTER
+
+SELECT ID,LOWER(CUSTOMER_NAME) AS NAME,SALES,AMOUNT FROM CUSTOMER;
+#ALIYAS OR AS: GIVES HEADER A NAME
+
+
+#WRITE A QUERY TO COMBINE THREE COLUMN WITH COMMA ID NAME AND AMOUNT
+SELECT CONCAT_WS(",",ID,CUSTOMER_NAME,AMOUNT) AS COMBINE FROM CUSTOMER;
+
+
+USE COMAPNY;
+SELECT * FROM EMP;
+
+
+#HOW TO UPLOAD A TABLE
+SELECT * from marksheet;
+
+
+#----------------------------------------------------
+-- ----------where clause is used to filter data according to the condition
+ 
+#-----------------------------QUESTION---------------------------------
+# write a query to retrive all column from table where city is biahr
+select * from marksheet where city="bihar";  
+
+#waq to show students_name , city and marks who lives in delhi
+select students_name,city,marks from marksheet where city="delhi";
+
+#waq to filter the table whose marks is greater than 400
+select * from marksheet where marks>400;
+
+#waq to show name of students whose name starts with "a"
+select * from marksheet where left(students_name,1)="a";
+
+#waq to show students's name whose name ends with "r"
+select students_name from marksheet where right(students_name,1)="r";
+
+#wap to show table  whose name whose roll number is even
+select * from marksheet where mod(roll_number,2)=0;
+
+#waq to show the FIrst three alphabet of students name in first and  last 3 alphabet in second column from marksheet
+select left(students_name,3) as first,
+		right(students_name,3) as second
+        from marksheet;
+ 
+
+#waq to show all table but exclude delhi
+select * from marksheet where city!="delhi";
+
+#waqp to show table where gender is girl and marks >400
+select * from marksheet
+		where gender="girl" and marks>400;
+
+#waq to show table where roll_number is between 20 to 30
+select * from marksheet
+			where roll_number between 20 and 30;
+            
+
+#LOGICAL OPERATORS:
+#WAQ TO RETRIVE TABLE WHOSE MARKS IS LESS TAHN 300 AND WHO LIVES IN HARYANA
+SELECT * FROM MARKSHEET WHERE
+			MARKS>300 AND CITY="HARYANA";
+
 
 
 
