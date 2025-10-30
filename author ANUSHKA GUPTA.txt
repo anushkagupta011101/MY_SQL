@@ -388,8 +388,8 @@ SELECT * FROM MARKSHEET WHERE
 			MARKS>300 AND CITY="HARYANA";
 
 
-anything is possible
-sometimes people are so two faced
+morrow day it's my birthday 
+
 
 
 
