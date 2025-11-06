@@ -414,7 +414,8 @@ SELECT * FROM MARKSHEET WHERE
 SELECT * FROM MARKSHEET WHERE
 			(CITY="DELHI" OR CITY="HARYANA") AND GENDER="GIRL";
 #------------------------------------------------------------------------
-my priyatam is in ahmedabad
+no today
+
 
 
 
