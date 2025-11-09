@@ -414,7 +414,9 @@ SELECT * FROM MARKSHEET WHERE
 SELECT * FROM MARKSHEET WHERE
 			(CITY="DELHI" OR CITY="HARYANA") AND GENDER="GIRL";
 #------------------------------------------------------------------------
-selecct * from marksheet markshet
+select * from marksheet;
+
+
 
 
 
