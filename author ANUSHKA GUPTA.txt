@@ -343,7 +343,7 @@ SELECT * from marksheet;
 
 
 #----------------------------------------------------
--- ----------where clause is used to filter data according to the condition
+-- ----------where clause is used to filter data according to the condition-------------------
  
 #-----------------------------QUESTION---------------------------------
 # write a query to retrive all column from table where city is biahr
@@ -416,6 +416,7 @@ SELECT * FROM MARKSHEET WHERE
 #------------------------------------------------------------------------
 select * from marksheet;
 select * from database;
+
 
 
 
