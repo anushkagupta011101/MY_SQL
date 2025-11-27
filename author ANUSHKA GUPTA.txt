@@ -1,7 +1,7 @@
 author ANUSHKA GUPT
 *************************************
 
-*************************************
+**********************************
 
 # SQL : 
 It stands for structured Query Language
@@ -417,6 +417,7 @@ SELECT * FROM MARKSHEET WHERE
 #------------------------------------------------------------------------
 select * from marksheet;
 select * from database;
+
 
 
 
